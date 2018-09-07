@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "compile": "babel app.js --out-file dist/main.js --presets=@babel/preset-env",
+    "compile-es6": "babel app.js --out-file dist/main.js --presets=@babel/preset-env",
     "build": "webpack app.js --module-bind js=babel-loader",
     "start": "npm run build && node dist/main.js"
   },
